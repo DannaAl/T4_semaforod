@@ -1,0 +1,8 @@
+C:\Users\danna\Documents\MCUXpressoIDE_11.10.0_3148\Embebidos\T4_sem_freertos_hello\drivers/fsl_clock.h:725:20:CLOCK_EnableClock	24	static
+C:\Users\danna\Documents\MCUXpressoIDE_11.10.0_3148\Embebidos\T4_sem_freertos_hello\drivers/fsl_port.h:271:20:PORT_SetPinConfig	32	static
+C:\Users\danna\Documents\MCUXpressoIDE_11.10.0_3148\Embebidos\T4_sem_freertos_hello\drivers/fsl_port.h:374:20:PORT_SetPinMux	24	static
+C:\Users\danna\Documents\MCUXpressoIDE_11.10.0_3148\Embebidos\T4_sem_freertos_hello\drivers/fsl_port.h:443:20:PORT_SetPinInterruptConfig	24	static
+../board/pin_mux.c:38:6:BOARD_InitBootPins	8	static
+../board/pin_mux.c:61:6:BOARD_InitPins	8	static
+../board/pin_mux.c:81:6:BOARD_InitLEDsPins	32	static
+../board/pin_mux.c:164:6:BOARD_InitBUTTONsPins	16	static

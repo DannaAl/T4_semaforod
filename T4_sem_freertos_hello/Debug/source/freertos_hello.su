@@ -1,0 +1,11 @@
+C:\Users\danna\Documents\MCUXpressoIDE_11.10.0_3148\Embebidos\T4_sem_freertos_hello\drivers/fsl_gpio.h:162:20:GPIO_PinWrite	24	static
+C:\Users\danna\Documents\MCUXpressoIDE_11.10.0_3148\Embebidos\T4_sem_freertos_hello\drivers/fsl_port.h:509:24:PORT_GetPinsInterruptFlags	16	static
+C:\Users\danna\Documents\MCUXpressoIDE_11.10.0_3148\Embebidos\T4_sem_freertos_hello\drivers/fsl_port.h:520:20:PORT_ClearPinsInterruptFlags	16	static
+../source/freertos_hello.c:43:5:main	16	static
+../source/freertos_hello.c:70:6:vTaskIncome	16	static
+../source/freertos_hello.c:81:6:vTaskLeave	16	static
+../source/freertos_hello.c:92:6:vTaskLEDmanage	16	static
+../source/freertos_hello.c:114:6:SW2_IRQHandler	16	static
+../source/freertos_hello.c:124:6:SW3_IRQHandler	16	static
+../source/freertos_hello.c:134:6:PORTD_IRQHandler	8	static
+../source/freertos_hello.c:139:6:PORTA_IRQHandler	8	static

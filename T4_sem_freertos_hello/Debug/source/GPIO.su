@@ -1,0 +1,9 @@
+C:\Users\danna\Documents\MCUXpressoIDE_11.10.0_3148\Embebidos\T4_sem_freertos_hello\CMSIS/core_cm4.h:1679:22:__NVIC_EnableIRQ	16	static
+C:\Users\danna\Documents\MCUXpressoIDE_11.10.0_3148\Embebidos\T4_sem_freertos_hello\drivers/fsl_clock.h:725:20:CLOCK_EnableClock	24	static
+C:\Users\danna\Documents\MCUXpressoIDE_11.10.0_3148\Embebidos\T4_sem_freertos_hello\drivers/fsl_common_arm.h:499:24:EnableIRQ	24	static
+C:\Users\danna\Documents\MCUXpressoIDE_11.10.0_3148\Embebidos\T4_sem_freertos_hello\drivers/fsl_port.h:271:20:PORT_SetPinConfig	32	static
+C:\Users\danna\Documents\MCUXpressoIDE_11.10.0_3148\Embebidos\T4_sem_freertos_hello\drivers/fsl_port.h:374:20:PORT_SetPinMux	24	static
+C:\Users\danna\Documents\MCUXpressoIDE_11.10.0_3148\Embebidos\T4_sem_freertos_hello\drivers/fsl_port.h:443:20:PORT_SetPinInterruptConfig	24	static
+../source/GPIO.c:14:6:board_clk_init	8	static
+../source/GPIO.c:23:6:board_LED_init	16	static
+../source/GPIO.c:43:6:board_SW_init	16	static
