@@ -37,8 +37,8 @@ void vTaskLeave(void *pvParameters);
 void vTaskLEDmanage(void *pvParameters);
 
 
-void SW2_IRQHandler(void);
-void SW3_IRQHandler(void);
+void USER_SW2_IRQ(void);
+void USER_SW3_IRQ(void);
 
 int main(void) {
 
@@ -111,7 +111,7 @@ void vTaskLEDmanage(void *pvParameters) {
 }
 
 
-void SW2_IRQHandler(void) {
+void USER_SW2_IRQ(void) {
     BaseType_t xHigherPriorityTaskWoken = pdFALSE;
     if (PORT_GetPinsInterruptFlags(PORTD) & (1 << SW2_PIN)) {
         xSemaphoreGiveFromISR(xSemaphoreLeave, &xHigherPriorityTaskWoken);
@@ -121,7 +121,7 @@ void SW2_IRQHandler(void) {
 }
 
 
-void SW3_IRQHandler(void) {
+void USER_SW3_IRQ(void) {
     BaseType_t xHigherPriorityTaskWoken = pdFALSE;
     if (PORT_GetPinsInterruptFlags(PORTA) & (1 << SW3_PIN)) {
         xSemaphoreGiveFromISR(xSemaphoreIncome, &xHigherPriorityTaskWoken);
@@ -132,10 +132,10 @@ void SW3_IRQHandler(void) {
 
 
 void PORTD_IRQHandler(void) {
-    SW2_IRQHandler();
+    USER_SW2_IRQ();
 }
 
 
 void PORTA_IRQHandler(void) {
-    SW3_IRQHandler();
+    USER_SW3_IRQ();
 }
